@@ -37,7 +37,7 @@ Perla do JS.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor \
-	INC="-I%{_includedir}/js"
+	INC="%{rpmcflags} -I%{_includedir}/js"
 %{__make}
 
 %{?with_tests:%{__make} test}
