@@ -9,7 +9,8 @@ Summary(pl):	JavaScript - wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
 Version:	0.52
 Release:	2
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Acme/CLAESJAC/%{pnam}-%{version}.tar.gz
 # Source0-md5:	675eee19cb5269e4dbfde9f64953fab0
