@@ -4,8 +4,8 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	JavaScript
-Summary:	JavaScript - Execute JavaScript from within Perl
-Summary(pl):	JavaScript - Wykonywanie JavaScriptu z Perla
+Summary:	JavaScript - execute JavaScript from within Perl
+Summary(pl):	JavaScript - wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
 Version:	0.52
 Release:	2
