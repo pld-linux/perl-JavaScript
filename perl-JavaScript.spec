@@ -8,14 +8,14 @@ Summary:	JavaScript - Execute JavaScript from within Perl
 Summary(pl):	JavaScript - Wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
 Version:	0.52
-Release:	1
-License:	GPL/Artistic
+Release:	2
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Acme/CLAESJAC/%{pnam}-%{version}.tar.gz
 # Source0-md5:	675eee19cb5269e4dbfde9f64953fab0
+BuildRequires:	js-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	js-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,8 +37,9 @@ Perla do JS.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor \
-	INC="%{rpmcflags} -I%{_includedir}/js"
-%{__make}
+	INC="-I%{_includedir}/js"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
 
