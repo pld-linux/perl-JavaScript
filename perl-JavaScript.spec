@@ -27,7 +27,7 @@ It does conversion between Perl and JS datatypes.
 
 %description -l pl
 JavaScript.pm jest interfejsem do enginu SpiderMonkey JS. Pozwala
-wykonywaæ kod JS, wywo³ywaæ funkcje JS, pod³±czaæ klasy Perlowe do JS,
+wykonywaæ kod JS, wywo³ywaæ funkcje JS, pod³±czaæ klasy perlowe do JS,
 importowaæ funkcje Perla do JS, prekompilowaæ i wykonywaæ skrypty
 podobnie jak wiele innych rzeczy. Robi tak¿e konwersjê miêdzy danymi z
 Perla do JS.
