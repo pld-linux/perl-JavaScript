@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	JavaScript
+%define		pnam	JavaScript
 Summary:	JavaScript - execute JavaScript from within Perl
 Summary(pl):	JavaScript - wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
