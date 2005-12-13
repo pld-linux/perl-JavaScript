@@ -20,10 +20,10 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-JavaScript.pm is an interface to the SpiderMonkey JS engine. It lets you
-execute JS code, call JS functions, bind Perl classes to JS, import Perl
-functions to JS, precompile and exeute scripts among many other things.
-It does conversion between Perl and JS datatypes.
+JavaScript.pm is an interface to the SpiderMonkey JS engine. It lets
+you execute JS code, call JS functions, bind Perl classes to JS,
+import Perl functions to JS, precompile and exeute scripts among many
+other things. It does conversion between Perl and JS datatypes.
 
 %description -l pl
 JavaScript.pm jest interfejsem do enginu SpiderMonkey JS. Pozwala
