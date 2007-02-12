@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	JavaScript
 Summary:	JavaScript - execute JavaScript from within Perl
-Summary(pl):	JavaScript - wykonywanie JavaScriptu z Perla
+Summary(pl.UTF-8):   JavaScript - wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
 Version:	0.53
 Release:	1
@@ -25,11 +25,11 @@ you execute JS code, call JS functions, bind Perl classes to JS,
 import Perl functions to JS, precompile and exeute scripts among many
 other things. It does conversion between Perl and JS datatypes.
 
-%description -l pl
+%description -l pl.UTF-8
 JavaScript.pm jest interfejsem do enginu SpiderMonkey JS. Pozwala
-wykonywaæ kod JS, wywo³ywaæ funkcje JS, pod³±czaæ klasy perlowe do JS,
-importowaæ funkcje Perla do JS, prekompilowaæ i wykonywaæ skrypty
-podobnie jak wiele innych rzeczy. Robi tak¿e konwersjê miêdzy danymi z
+wykonywaÄ‡ kod JS, wywoÅ‚ywaÄ‡ funkcje JS, podÅ‚Ä…czaÄ‡ klasy perlowe do JS,
+importowaÄ‡ funkcje Perla do JS, prekompilowaÄ‡ i wykonywaÄ‡ skrypty
+podobnie jak wiele innych rzeczy. Robi takÅ¼e konwersjÄ™ miÄ™dzy danymi z
 Perla do JS.
 
 %prep
