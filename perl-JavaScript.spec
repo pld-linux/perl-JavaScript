@@ -40,6 +40,7 @@ Perla do JS.
 	INSTALLDIRS=vendor \
 	INC="-I%{_includedir}/js"
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
