@@ -8,7 +8,7 @@ Summary:	JavaScript - execute JavaScript from within Perl
 Summary(pl.UTF-8):	JavaScript - wykonywanie JavaScriptu z Perla
 Name:		perl-JavaScript
 Version:	0.53
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
