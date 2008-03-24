@@ -12,8 +12,9 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pnam}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/JavaScript/%{pnam}-%{version}.tar.gz
 # Source0-md5:	02e009dcfba5645aa1e53c1d4698ffff
+URL:		http://search.cpan.org/dist/JavaScript/
 BuildRequires:	js-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -26,7 +27,7 @@ import Perl functions to JS, precompile and exeute scripts among many
 other things. It does conversion between Perl and JS datatypes.
 
 %description -l pl.UTF-8
-JavaScript.pm jest interfejsem do enginu SpiderMonkey JS. Pozwala
+JavaScript.pm jest interfejsem do silnika SpiderMonkey JS. Pozwala
 wykonywać kod JS, wywoływać funkcje JS, podłączać klasy perlowe do JS,
 importować funkcje Perla do JS, prekompilować i wykonywać skrypty
 podobnie jak wiele innych rzeczy. Robi także konwersję między danymi z
@@ -58,8 +59,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Change* README
 %{perl_vendorarch}/*.pm
-%dir %{perl_vendorarch}/auto/%{pnam}
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pnam}/*.so
-%{perl_vendorarch}/auto/%{pnam}/*.bs
-%{perl_vendorarch}/auto/%{pnam}/*.ix
+%dir %{perl_vendorarch}/auto/JavaScript
+%attr(755,root,root) %{perl_vendorarch}/auto/JavaScript/*.so
+%{perl_vendorarch}/auto/JavaScript/*.bs
+%{perl_vendorarch}/auto/JavaScript/*.ix
 %{_mandir}/man3/*
