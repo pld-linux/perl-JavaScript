@@ -61,6 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/*.pm
 %dir %{perl_vendorarch}/auto/JavaScript
 %attr(755,root,root) %{perl_vendorarch}/auto/JavaScript/*.so
-%{perl_vendorarch}/auto/JavaScript/*.bs
 %{perl_vendorarch}/auto/JavaScript/*.ix
 %{_mandir}/man3/*
