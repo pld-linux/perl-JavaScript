@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	JavaScript
 Summary:	JavaScript - execute JavaScript from within Perl
 Summary(pl.UTF-8):	JavaScript - wykonywanie JavaScriptu z Perla
